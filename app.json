@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Smart Car Hub",
+    "slug": "smart-car-hub",
+    "scheme": "smartcarhub",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#080808",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "studio.eonix.smartcarhub"
+    },
+    "android": {
+      "package": "studio.eonix.smartcarhub",
+      "adaptiveIcon": {
+        "backgroundColor": "#080808"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Smart Car Hub needs photo access so you can upload vehicle images.",
+          "cameraPermission": "Smart Car Hub needs camera access to photograph your vehicle."
+        }
+      ]
+    ]
+  }
+}
